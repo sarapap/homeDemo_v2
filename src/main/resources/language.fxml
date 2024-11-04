@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="Language">
+    <children>
+        <Label fx:id="languageLabel" text="Select Language:" />
+        <ComboBox fx:id="languageComboBox" onAction="#handleLanguageSelection">
+        </ComboBox>
+
+        <Label fx:id="nameLabel" text="First Name:" layoutY="50" layoutX="10"/>
+        <TextField fx:id="firstNameField" layoutX="100" layoutY="50"  />
+
+        <Label fx:id="lastNameLabel" text="Last Name:" layoutY="100" layoutX="10"/>
+        <TextField fx:id="lastNameField" layoutX="100" layoutY="100"/>
+
+        <Label fx:id="emailLabel" text="Email:" layoutY="150" layoutX="10"/>
+        <TextField fx:id="emailField" layoutX="100" layoutY="150"/>
+
+        <Button fx:id="saveButton" text="Save" onAction="#handleSave" layoutY="200" layoutX="10" prefWidth="70"/>
+    </children>
+</AnchorPane>
