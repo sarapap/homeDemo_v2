@@ -1,0 +1,1 @@
+In this task, I created a simple JavaFX application that allows the user to change an employee's name in the database, ensuring that the name is saved in the selected language. The available languages are Japanese, English, and Persian. For example, if English is selected, the data is stored under the employee_en table in the database.
