@@ -77,13 +77,13 @@ public class Language {
         if (selectedLanguage != null) {
             switch (selectedLanguage) {
                 case "English":
-                    Main.addEmployeeToEnglish(firstName, lastName, email);
+                    View.addEmployeeToEnglish(firstName, lastName, email);
                     break;
                 case "Farsi":
-                    Main.addEmployeeToFarsi(firstName, lastName, email);
+                    View.addEmployeeToFarsi(firstName, lastName, email);
                     break;
                 case "Japanese":
-                    Main.addEmployeeToJapanese(firstName, lastName, email);
+                    View.addEmployeeToJapanese(firstName, lastName, email);
                     break;
                 default:
                     System.out.println("No language selected.");

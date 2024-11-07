@@ -1,5 +1,5 @@
 public class LanguageMain {
     public static void main(String[] args) {
-        Main.launch(Main.class);
+        View.launch(View.class);
     }
 }

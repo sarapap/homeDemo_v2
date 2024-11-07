@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Main extends Application {
+public class View extends Application {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/database_localization";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
@@ -48,7 +48,6 @@ public class Main extends Application {
     }
     @Override
     public void start(Stage stage) throws IOException {
-
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("language.fxml"));
         Parent root = loader.load();
@@ -57,9 +56,6 @@ public class Main extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch(args);
-    }
 }
 
 
